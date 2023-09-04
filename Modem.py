@@ -29,10 +29,12 @@ class SAME_Signal_Generator:
             for char in part:
                 byte_data = np.append(byte_data, SAME_Signal_Generator.Generate_Byte_Signal(char, mark_freq, space_freq))
             if i < len(header_parts) - 1:
-                if part == header_parts[-3]:
+                if part == header_parts[-4]:
                     byte_data = np.append(byte_data, SAME_Signal_Generator.Generate_Byte_Signal("+", mark_freq, space_freq))
                 else:
                     byte_data = np.append(byte_data, SAME_Signal_Generator.Generate_Byte_Signal("-", mark_freq, space_freq))
+            elif i == len(header_parts) - 1:
+                byte_data = np.append(byte_data, SAME_Signal_Generator.Generate_Byte_Signal("-", mark_freq, space_freq))
         return byte_data
 
     @staticmethod
@@ -86,9 +88,9 @@ class SAME_Signal_Generator:
         return signal
 
     @staticmethod
-    def Export_SAME_Signal(ORG, EEE, PSSCCC, TTTT, JJJHHMM):
+    def Export_SAME_Signal(ORG, EEE, PSSCCC, TTTT, JJJHHMM, LLLLLLLL):
         header = [
-            "ZCZC", ORG, EEE, PSSCCC, TTTT, JJJHHMM,
+            "ZCZC", ORG, EEE, PSSCCC, TTTT, JJJHHMM, LLLLLLLL
         ]
         signal = SAME_Signal_Generator.Finalise_SAME_Signal(
             header, "NNNN", SAME_Signal_Generator.MARK_BIT_FREQUENCY, SAME_Signal_Generator.SPACE_BIT_FREQUENCY
