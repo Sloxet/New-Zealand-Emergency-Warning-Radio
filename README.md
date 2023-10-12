@@ -22,7 +22,8 @@ This project includes the fm_transmitter library, created by Josef Miegl,[[3]](h
   * **Station Configuration**<br>
  Callsign (Default: LLLLLLLL)<br>
  Frequency (Default: 162.400 MHz)<br>
- Location (Default: Takanini, Auckland)
+ Region (Default: Auckland)<br>
+ Suburb or Locality (Default: Takanini)
  
   * **Audio Configuration**<br>
  Onboard (Default: True)<br>
