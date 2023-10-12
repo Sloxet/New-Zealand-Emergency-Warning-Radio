@@ -36,13 +36,20 @@ To use the transmitting functions of New Zealand Emergency Warning Radio, person
 
 This requirement applies not only within Aotearoa New Zealand but also extends to its territories and dependant territories. Failure to meet the licencing requirements necessitates the deployment of the software in a controlled environment, ensuring compliance with legal and regulatory standards.
 
+### Australia:
+To use the transmitting functions of New Zealand Emergency Warning Radio in Australia, person(s) or organisations are required to hold a Satellite apparatus licence issued by the Australian Communications and Media Authority. This requirement is due to the 162.400-162.550 MHz frequency band being designated for inter-satellite services rather than general use in Australia.
+
+This requirement applies to the entirety of Australia, including states, internal territories, and external territories such as the Ashmore and Cartier Islands, Heard Island and McDonald Islands, the Australian Capital Territory, Cocos (Keeling) Islands, Northern Territory, Jervis Bay Territory, Norfolk Island, the Coral Sea Islands, Christmas Island and the Australian Antarctic Territory. 
+
+Before transmitting, consult the Register of Radiocommunications Licences (RRL)[[5]](https://web.acma.gov.au/rrl/register_search.main_page "[5]") to confirm the legality of your chosen frequency and location. Make sure your transmission doesn't interfere with existing signals. Failure to meet the licencing requirements and Register of Radiocommunications Licences (RRL) requirements necessitates the deployment of the software in a controlled environment, ensuring compliance with legal and regulatory standards.
+
 ### United States:
-The use of this software within the United States, including U.S. Territories, Tribal Governments, and Freely Associated States, is strictly prohibited unless it is deployed in a controlled environment. Transmitting invalid Specific Area Message Encoder (SAME) tones over the airwaves in the United States is a punishable offence (47 CFR § 11.45[[5]](https://www.law.cornell.edu/cfr/text/47/11.45 "[5]")).
+The use of this software within the United States, including U.S. Territories, Tribal Governments, and Freely Associated States, is strictly prohibited unless it is deployed in a controlled environment. Transmitting invalid Specific Area Message Encoder (SAME) tones over the airwaves in the United States is a punishable offence (47 CFR § 11.45[[6]](https://www.law.cornell.edu/cfr/text/47/11.45 "[6]")).
 
 Additionally, the frequency band 162.400-162.550 MHz is reserved for government broadcasts in the United States, including Puerto Rico, American Samoa, the U.S. Virgin Islands, the Federated States of Micronesia, Commonwealth of the Northern Mariana Islands, Guam, Republic of the Marshall Islands, and Palau.
 
 ### Other:
-For individuals or organisations outside of Aotearoa New Zealand or the aforementioned regions intending to use this software for educational or demonstration purposes, it is their responsibility to ensure compliance with local radio band allocations and laws related to transmitting in their respective regions. Failure to comply may result in legal consequences as per local regulations.
+For person(s) or organisations outside of the aforementioned regions intending to use this software for educational or demonstration purposes, it is their responsibility to ensure compliance with local radio band allocations and laws related to transmitting in their respective regions. Failure to comply may result in legal consequences as per local regulations.
 
 # Software Liability
 
