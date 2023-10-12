@@ -4,29 +4,29 @@
 Emergency Warning Radio (Te Reo Irirangi Whakatūpato Ohotata) is a radio automation software designed for Aotearoa New Zealand. It continuously monitors and automatically rebroadcasts watches and warnings from authorised sources, including the Meteorological Service, GNS Science, New Zealand Police, Fire and Emergency New Zealand, and Regional and District Councils.
 
 # Features
-* **Multi-Source Integration:** 
+* **Multi-Source Integration:**<br>
 Constantly monitors and aggregates warnings from the Meteorological Service, GNS Science, New Zealand Police, Fire and Emergency New Zealand, and Regional and District Councils.
 
-* **Specific Area Message Encoding (SAME):** 
+* **Specific Area Message Encoding (SAME):**<br> 
 Translates warnings from the Common Alerting Protocol CAP-NZ Technical Standard[[1]](https://www.civildefence.govt.nz/assets/Uploads/publications/Common-Alerting-Protocol/Common-Alerting-Protocol-CAP-NZ-Technical-Standard-TS04-18-FINAL.pdf "[1]") to the Specific Area Message Encoding (SAME)[[2]](https://en.wikipedia.org/wiki/Specific_Area_Message_Encoding "[2]") protocol.
 
-* **FM Modulation:** 
+* **FM Modulation:** <br>
 This project includes the fm_transmitter library, created by Josef Miegl,[[3]](https://github.com/markondej/fm_transmitter "[2]") to modulate an FM Signal on frequencies 162.400-162.550 MHz. This feature can be enabled or disabled if the user prefers to use their own equipment or lacks authorisation to transmit on these frequencies[[4]](#end-user-licence-agreement "[1]").
 
 * **Customisable Settings:** 
-  * **SAME Configuration**
- Baud Rate (Default: 520.83 Hz)
- MARK Frequency (Default: 2083.3 Hz)
+  * **SAME Configuration**<br>
+ Baud Rate (Default: 520.83 Hz)<br>
+ MARK Frequency (Default: 2083.3 Hz)<br>
  SPACE Frequency (Default: 1562.5 Hz)
  
-  * **Station Configuration**
- Callsign (Default: LLLLLLLL)
- Frequency (Default: 162.400 MHz)
+  * **Station Configuration**<br>
+ Callsign (Default: LLLLLLLL)<br>
+ Frequency (Default: 162.400 MHz)<br>
  Location (Default: Takanini, Auckland)
  
-  * **Audio Configuration**
- Onboard (Default: True)
- Audio Driver (Default: WDM)
+  * **Audio Configuration**<br>
+ Onboard (Default: True)<br>
+ Audio Driver (Default: WDM)<br>
  Output Device (Default: None)
 
 
