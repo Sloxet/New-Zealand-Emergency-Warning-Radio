@@ -9,7 +9,7 @@ Constantly monitors and aggregates warnings from the Meteorological Service, GNS
 Translates warnings from the Common Alerting Protocol CAP-NZ Technical Standard[[1]](https://www.civildefence.govt.nz/assets/Uploads/publications/Common-Alerting-Protocol/Common-Alerting-Protocol-CAP-NZ-Technical-Standard-TS04-18-FINAL.pdf "[1]") to the Specific Area Message Encoding (SAME)[[2]](https://en.wikipedia.org/wiki/Specific_Area_Message_Encoding "[2]") protocol.
 
 * **FM Modulation:** 
-This project includes the fm_transmitter library, created by Josef Miegl,[[3]](https://github.com/markondej/fm_transmitter "[2]") to modulate an FM Signal on frequencies 162.400-162.550 MHz. This feature can be enabled or disabled if the user prefers to use their own equipment or lacks authorisation to transmit on these frequencies[[4]](#end-user-license-agreement "[1]").
+This project includes the fm_transmitter library, created by Josef Miegl,[[3]](https://github.com/markondej/fm_transmitter "[2]") to modulate an FM Signal on frequencies 162.400-162.550 MHz. This feature can be enabled or disabled if the user prefers to use their own equipment or lacks authorisation to transmit on these frequencies[[4]](#end-user-licence-agreement "[1]").
 
 * **Customisable Settings:** 
  * **SAME Configuration**
