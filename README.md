@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://raw.github.com/Sloxet/New-Zealand-Emergency-Warning-Radio/main/Logo.png" title="Emergency Warning Radio" alt="Emergency Warning Radio" width="150">
+ <img src="https://github.com/Sloxet/New-Zealand-Emergency-Warning-Radio/blob/main/Logo.png?raw=true" title="Emergency Warning Radio" alt="Emergency Warning Radio" width="750">
 </p>
 Emergency Warning Radio (Te Reo Irirangi Whakatūpato Ohotata) is a radio automation software designed for Aotearoa New Zealand. It continuously monitors and automatically rebroadcasts watches and warnings from authorised sources, including the Meteorological Service, GNS Science, New Zealand Police, Fire and Emergency New Zealand, and Regional and District Councils.
 
