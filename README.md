@@ -8,10 +8,10 @@ Emergency Warning Radio (Te Reo Irirangi Whakatūpato Ohotata) is a radio automa
 Constantly monitors and aggregates warnings from the Meteorological Service, GNS Science, New Zealand Police, Fire and Emergency New Zealand, and Regional and District Councils.
 
 * **Specific Area Message Encoding (SAME):**<br> 
-Translates warnings from the Common Alerting Protocol CAP-NZ Technical Standard[[1]](https://www.civildefence.govt.nz/assets/Uploads/publications/Common-Alerting-Protocol/Common-Alerting-Protocol-CAP-NZ-Technical-Standard-TS04-18-FINAL.pdf "[1]") to the Specific Area Message Encoding (SAME)[[2]](https://en.wikipedia.org/wiki/Specific_Area_Message_Encoding "[2]") protocol.
+Translates warnings from the Common Alerting Protocol CAP-NZ Technical Standard [🡥](https://www.civildefence.govt.nz/assets/Uploads/publications/Common-Alerting-Protocol/Common-Alerting-Protocol-CAP-NZ-Technical-Standard-TS04-18-FINAL.pdf "🡥") to the Specific Area Message Encoding (SAME) [🡥](https://en.wikipedia.org/wiki/Specific_Area_Message_Encoding "🡥") protocol.
 
 * **FM Modulation:** <br>
-This project includes the fm_transmitter library, created by Josef Miegl,[[3]](https://github.com/markondej/fm_transmitter "[2]") to modulate an FM Signal on frequencies 162.400-162.550 MHz. This feature can be enabled or disabled if the user prefers to use their own equipment or lacks authorisation to transmit on these frequencies[[4]](#end-user-licence-agreement "[1]").
+This project includes the fm_transmitter library, created by Josef Miegl, [🡥](https://github.com/markondej/fm_transmitter "🡥") to modulate an FM Signal on frequencies 162.400-162.550 MHz. This feature can be enabled or disabled if the user prefers to use their own equipment or lacks authorisation to transmit on these frequencies. [🡥](#end-user-licence-agreement "🡥")
 
 * **Customisable Settings:** 
   * **SAME Configuration**<br>
@@ -42,10 +42,10 @@ To use the transmitting functions of New Zealand Emergency Warning Radio in Aust
 
 This requirement applies to the entirety of Australia, including states, internal territories, and external territories such as the Ashmore and Cartier Islands, Heard Island and McDonald Islands, the Australian Capital Territory, Cocos (Keeling) Islands, Northern Territory, Jervis Bay Territory, Norfolk Island, the Coral Sea Islands, Christmas Island and the Australian Antarctic Territory. 
 
-Before transmitting, consult the Register of Radiocommunications Licences (RRL)[[5]](https://web.acma.gov.au/rrl/register_search.main_page "[5]") to confirm the legality of your chosen frequency and location. Make sure your transmission doesn't interfere with existing signals. Failure to meet the licencing requirements and Register of Radiocommunications Licences (RRL) requirements necessitates the deployment of the software in a controlled environment, ensuring compliance with legal and regulatory standards.
+Before transmitting, consult the Register of Radiocommunications Licences (RRL) [🡥](https://web.acma.gov.au/rrl/register_search.main_page "🡥") to confirm the legality of your chosen frequency and location. Make sure your transmission doesn't interfere with existing signals. Failure to meet the licencing requirements and Register of Radiocommunications Licences (RRL) requirements necessitates the deployment of the software in a controlled environment, ensuring compliance with legal and regulatory standards.
 
 ### United States:
-The use of this software within the United States, including U.S. Territories, Tribal Governments, and Freely Associated States, is strictly prohibited unless it is deployed in a controlled environment. Transmitting invalid Specific Area Message Encoder (SAME) tones over the airwaves in the United States is a punishable offence (47 CFR § 11.45[[6]](https://www.law.cornell.edu/cfr/text/47/11.45 "[6]")).
+The use of this software within the United States, including U.S. Territories, Tribal Governments, and Freely Associated States, is strictly prohibited unless it is deployed in a controlled environment. Transmitting invalid Specific Area Message Encoder (SAME) tones over the airwaves in the United States is a punishable offence (47 CFR § 11.45). [🡥](https://www.law.cornell.edu/cfr/text/47/11.45 "🡥")
 
 Additionally, the frequency band 162.400-162.550 MHz is reserved for government broadcasts in the United States, including Puerto Rico, American Samoa, the U.S. Virgin Islands, the Federated States of Micronesia, Commonwealth of the Northern Mariana Islands, Guam, Republic of the Marshall Islands, and Palau.
 
